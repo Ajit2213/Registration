@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: rgba(0, 0, 255, 0.689);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.Registration{
+    width: 800px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+h2{
+    /* border-bottom: 2px solid blue; */
+    font-size: 24px;
+    font-weight: 800;
+    padding: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+.Registration h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    background-color: blue;
+}
+.Registration form .personal{
+     color:silver;
+    font-size: 22px;
+
+}
+.Registration .personal{
+    margin-left: 5px;
+}
+
+.Registration form .first{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.first .name{
+    box-sizing: border-box;
+    width: calc(100%/3);
+    padding: 10px;
+}
+
+.first input{
+    width:100%;
+    padding: 3px 2px;
+    outline: none; 
+    margin-top: 5px;
+}
+.first label{
+    font-size:18px;
+}
+
+.second label{
+    font-size: 18px;
+}
+
+.Registration form .identify{
+    color:silver;
+   font-size: 22px;
+
+}
+.Registration .identify{
+   margin-left: 5px;
+}
+
+.Registration form .second{
+   margin: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.second .name{
+   box-sizing: border-box;
+   width: calc(100%/3);
+   padding: 10px;
+}
+
+.second input{
+   width:100%;
+   padding: 3px 2px;
+   outline: none; 
+   margin-top: 5px;
+}
+button{
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    background: blue;
+    
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
